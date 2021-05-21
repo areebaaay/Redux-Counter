@@ -3,6 +3,8 @@ const loggedReducer = (state = false, action) => {
     case 'SIGN_IN': {
       return !state;
     }
+    default:
+      return state;
   }
 };
 
